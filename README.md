@@ -9,6 +9,7 @@ git clone https://github.com/Ferdy89/dotfiles.git && cd dotfiles
 
 sudo apt install stow
 
+rm ~/.zshrc
 stow zsh
 stow bin
 stow tmux
